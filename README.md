@@ -50,3 +50,5 @@ Reputation-System:
 ### Spaltung & Dachorganisation
 - Klare Regelungen zur Spaltung der DAO
 - Übergeordnete DAO, ähnlich einem Dachverband bei Vereinen
+
+Siehe auch: [Kriterienkatalog](Kriterien.md)
