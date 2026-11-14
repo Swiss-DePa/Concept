@@ -32,7 +32,9 @@ Arbeitet die [Kategorien](Kategorien.md) aus.
 - **Identitätsvalidierung**: Tag System, wer darf was voten, wo schreiben, was lesen
 - **Anerkennungs-System**: Reputation, Trial Phase, Vertrauen als Grundsatz
 - **Constitution** (Entwurf) und Regeln zur Spaltung bzw. Dachorganisation
-- **DAO-Plattform neu wählen**: Soonaverse wurde 2024 eingestellt (siehe [Hinweis im Konzept](README.md#dao)). Anforderungen aus den Kategorien ableiten, Alternativen vergleichen, entscheiden
+- **DAO-Infrastruktur** (entschieden, siehe [KI-Sekretariat](KI-Sekretariat.md)): GitHub-Repository [Swiss-DePa/dao](https://github.com/Swiss-DePa/dao) für Regeln und Proposals, eigene Voting-App für Abstimmungen und Identität
+  - Verfassungsentwurf im dao-Repo fertigstellen (offene Werte festlegen)
+  - Voting-App spezifizieren: Liquid Democracy, Multi-Option mit Stichfrage, Identitätsprüfung, signierte Ergebnisse
 
 ## Phase 2 – Auftritt (T+3 bis T+6 Monate)
 
@@ -40,21 +42,23 @@ Arbeitet die [Kategorien](Kategorien.md) aus.
 - **Social Media Management**: festlegen, wer was wie betreut
 - **Kommunikation nach Aussen**, Grafik/Design
 - **Community Building** und **Onboarding** neuer Mitglieder (Discord-Vorstellung, Beitritt auf der DAO-Plattform)
-- **Erste Proposals** als Testlauf für das Voting System
+- **KI-Sekretariat** im Pilotbetrieb: eigenes GitHub-Konto, prüft Anliegen und erstellt Proposals (Merges noch mit Label `aufbauphase`)
+- **Voting-App** entwickeln; erste Proposals als Testlauf
 
 ## Phase 3 – DAO (T+6 bis T+12 Monate)
 
-- **Übergang zur DAO**: Ende der Aufbauphase, Entscheidungen laufen über Proposals und Liquid-Democracy-Voting
+- **Übergang zur DAO**: Voting-App in Betrieb, erste Abstimmung nimmt die Verfassung an; damit endet die Aufbauphase (Verfassung Art. 10)
 - **Rollen und Aufgaben** dezentralisieren; Leads der Aufbauphase durch gewählte Rollen ablösen
 - **Verein gründen** als Rechtsträger (Statuten, Gründungsversammlung); die DAO regelt die internen Entscheide
 - **Finanzierung** klären: Community Token, NFT oder andere Modelle
-- **Identität**: IOTA-DID-Integration evaluieren (siehe [Identity-Verification](https://github.com/Swiss-DePa/Identity-Verification))
+- **Identität**: über die Voting-App; IOTA DID als mögliche Technik evaluieren (siehe [Identity-Verification](https://github.com/Swiss-DePa/Identity-Verification))
 
 ## Phase 4 – Politische Wirkung (T+12 bis T+24 Monate)
 
 - **Repräsentanten**: Ratskandidaten bestimmen, Namen auf Liste
 - **Initiativen / Referenden**: Initiierung, Gründung, Finanzierung
 - **Dachorganisation**, falls sich Gruppen abspalten
+- **GitHub ablösen** durch einen dezentralen bzw. selbst gehosteten Git-Server; KI-Sekretariat auf eigener Infrastruktur
 - Kandidaturen, Listen und Initiativen laufen über den Verein (siehe Phase 3), da eine DAO allein in der Schweiz kein Rechtsträger ist.
 
 ## Phase 5 – Technisches System (ab T+24 Monate)
