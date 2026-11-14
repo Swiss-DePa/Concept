@@ -51,4 +51,4 @@ Reputation-System:
 - Klare Regelungen zur Spaltung der DAO
 - Übergeordnete DAO, ähnlich einem Dachverband bei Vereinen
 
-Siehe auch: [Kategorien](Kategorien.md)
+Siehe auch: [Kategorien](Kategorien.md) · [Roadmap](Roadmap.md)
