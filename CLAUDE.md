@@ -11,18 +11,19 @@ The working directory holds seven separate git repositories (each its own clone 
 Decisions already taken (do not reopen without being asked):
 - Voting logic: multi-option with Stichfrage as in `technical-system/Subnet Governance Network.md`, section 4.2.
 - Legal form: Verein as legal shell, DAO for internal decisions.
-- Soonaverse, the originally planned DAO platform, was shut down in 2024; a new platform still has to be chosen (Roadmap phase 1).
+- Soonaverse, the originally planned DAO platform, was shut down in 2024. Replacement: the DAO lives in the Git repo `Swiss-DePa/dao` (GitHub for the start, later a decentralised/self-hosted Git server), voting and member identity via an own voting app/service, and a KI-Sekretariat (AI agent without a vote) that works only through issues and PRs (`Concept/KI-Sekretariat.md`).
 
 **There is no code yet.** Every repository contains only Markdown planning documents, most of them stubs or headings without body text. There is nothing to build, lint or test; work here means writing and structuring concept documents.
 
 | Directory | GitHub repo | Content |
 |---|---|---|
-| `Concept/` | Swiss-DePa/Concept | The core concept (`README.md`): what Swiss DePa is, current build-up phase (Landing Area, Working Groups), liquid democracy (diagrams in `images/`), reputation system, split rules, DAO vs. Verein/demonstration. `Kategorien.md`: criteria catalogue (Level 1 = Kriterium, Level 2 = Sub-Kriterium) for voting, identity, roles, representatives, initiatives. `Roadmap.md`: phases 0–5 with times relative to start (T0, "T+3 Monate"), deliberately no calendar dates. Also holds this `CLAUDE.md`. |
+| `Concept/` | Swiss-DePa/Concept | The core concept (`README.md`): what Swiss DePa is, current build-up phase (Landing Area, Working Groups), liquid democracy (diagrams in `images/`), reputation system, split rules, DAO vs. Verein/demonstration. `Kategorien.md`: criteria catalogue (Level 1 = Kriterium, Level 2 = Sub-Kriterium) for voting, identity, roles, representatives, initiatives. `Roadmap.md`: phases 0–5 with times relative to start (T0, "T+3 Monate"), deliberately no calendar dates. `KI-Sekretariat.md`: role and limits of the DAO's AI agent. Also holds this `CLAUDE.md`. |
 | `DAOmanagement/` | petter1/DAOmanagement | How the DAO is run: constitution, task/goal tracking (via GitHub), member onboarding (Discord intro + Soonaverse join request → Soonaverse role), proposal voting options (now: multi-option with Stichfrage), TangleHub for decentralized data storage, community token / NFT ideas. |
 | `Identity-Verification/` | Swiss-DePa/Identity-Verification | Placeholders for IOTA DID integration and a tag system. |
 | `Puplic-Relation/` | Swiss-DePa/Puplic-Relation | Website requirements (domain, content, links) and social-media responsibilities. All stubs. |
 | `technical-system/` | Swiss-DePa/technical-system | `Subnet Governance Network.md`: English concept paper (draft v0.6) for a feeless network of sovereign subnets with cluster governance, ZK identity and multi-option voting. Its section 12 maps the idea onto Swiss democracy. |
-| `dao/`, `party/` | Swiss-DePa/… | Only a title README. |
+| `dao/` | Swiss-DePa/dao | The living DAO: `verfassung/Verfassung.md` (draft constitution, open values marked **[offen]**), `SEKRETARIAT.md` (operating instructions for the KI-Sekretariat, addressed to the agent, not to you), `abstimmungen/` (vote results `pr-<n>.json` written by the voting app), issue/PR templates, and the workflow «Abstimmung prüfen» which runs `scripts/pruefe_abstimmung.py` from the base branch via `pull_request_target`. Test the script locally with env vars `PR_NUMBER`, `BASE_SHA`, `PR_LABELS`, `REPO_ROOT`. |
+| `party/` | Swiss-DePa/party | Only a title README. |
 
 ## Conventions
 

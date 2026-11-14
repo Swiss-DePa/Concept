@@ -10,7 +10,7 @@ Swiss DePa befindet sich in der Aufbauphase. Discord dient als internes Kommunik
 ### Working Groups
 - **Festlegung des grundsätzlichen Prinzips**
   - Discord als internes Kommunikations-Tool
-  - DAO als zukünftiges Ideal (Plattform offen, siehe [DAO](#dao))
+  - DAO als zukünftiges Ideal (siehe [DAO](#dao))
 - **Identitätsfeststellung** (siehe Repo [Identity-Verification](https://github.com/Swiss-DePa/Identity-Verification))
 - **Strukturierung**
   - Aufbauphase: Aufteilung des Leads in verschiedene Departments
@@ -26,7 +26,7 @@ Swiss DePa befindet sich in der Aufbauphase. Discord dient als internes Kommunik
 ### DAO
 Mit der Fertigstellung der Aufbauphase soll Swiss DePa in eine Dezentralisierte Autonome Organisation auf [Soonaverse](https://soonaverse.com/space/0xfb239ac24ef62fcf7093a455c531ecd038cac412/overview) umgewandelt werden. Ziel bleibt eine aktivere Teilnahme an der Politik, die auch effektiv wirken kann. Durch die Struktur einer DAO soll eine Plattform geschaffen werden, die das Einbringen einer politischen Meinung vereinfacht und das Erarbeiten von konstruktiven Lösungsvorschlägen ermöglicht.
 
-> **Hinweis:** Soonaverse wurde 2024 eingestellt; die Website ist offline. Die DAO-Plattform muss neu gewählt werden (siehe [Roadmap](Roadmap.md), Phase 1).
+> **Hinweis:** Soonaverse wurde 2024 eingestellt. Stattdessen läuft die DAO als Git-Repository ([Swiss-DePa/dao](https://github.com/Swiss-DePa/dao)) mit eigener Voting-App und einem [KI-Sekretariat](KI-Sekretariat.md).
 
 #### Vergleich DAO und Verein
 Praktisch alle Parteien in der Schweiz sind Vereine. Eine DePa wäre anstelle eines Vereines ein DAO. Da eine DAO in der Schweiz kein Rechtsträger ist, braucht Swiss DePa für Kandidaturen, Initiativen und Finanzen voraussichtlich trotzdem einen Verein als rechtliche Hülle; die Entscheide fallen intern in der DAO.
@@ -53,4 +53,4 @@ Reputation-System:
 - Klare Regelungen zur Spaltung der DAO
 - Übergeordnete DAO, ähnlich einem Dachverband bei Vereinen
 
-Siehe auch: [Kategorien](Kategorien.md) · [Roadmap](Roadmap.md)
+Siehe auch: [Kategorien](Kategorien.md) · [Roadmap](Roadmap.md) · [KI-Sekretariat](KI-Sekretariat.md)
