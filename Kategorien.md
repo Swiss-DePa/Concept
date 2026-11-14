@@ -21,4 +21,5 @@ Dieses Dokument ersetzt das frühere OneNote-Notizbuch «Swiss Decentralized Par
   - _offen_
 - **Initiativen / Referenden**
   - Initiierung
-  - Founding
+  - Gründung (Founding)
+  - Finanzierung (Funding)
