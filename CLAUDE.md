@@ -25,5 +25,6 @@ The working directory holds seven separate git repositories (each its own clone 
 - `Puplic-Relation` is the actual repository name. Do not "correct" the spelling in paths, links or remotes.
 - File names may contain spaces (`Social Media.md`, `IOTA DID Integration.md`, `Tag System.md`); quote paths in shell commands.
 - History so far consists of small commits made through the GitHub web UI on `main`. Each repo has its own branch to work on; commit and push per repository (`git -C <dir> ...`), since the parent directory is not itself a git repo.
+- **At the end of every session, `CLAUDE.md` must be brought to `main` of `Swiss-DePa/Concept`** (this is explicit permission to push this one file directly to `main`). Commit only `CLAUDE.md` there; other changes stay on the session branch and go through a PR.
 - The repos replace the former shared OneNote notebook «Swiss Decentralized Party». Its content (Liquid-Democracy diagrams, Kategorien) has been moved to `Concept/`; new content goes into the repos, not OneNote.
 - Technology referenced in the docs: Soonaverse (DAO platform), IOTA / Tangle (DID identity, TangleHub storage), Discord (community entry point).
