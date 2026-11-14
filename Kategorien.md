@@ -6,6 +6,7 @@ Dieses Dokument ersetzt das frühere OneNote-Notizbuch «Swiss Decentralized Par
 
 - **Voting System**
   - Kriterien
+  - Abstimmungslogik: Multi-Option mit Stichfrage (Subnet Governance Network, Abschnitt 4.2)
   - Delegiersystem: Übergabe der Stimme an Expert:innen (Delegation, siehe [Funktionsweise](README.md#funktionsweise-von-swiss-depa))
 - **Identitätsvalidierung** (siehe Repo [Identity-Verification](https://github.com/Swiss-DePa/Identity-Verification))
   - [Tag System](https://github.com/Swiss-DePa/Identity-Verification/blob/main/Tag%20System.md)

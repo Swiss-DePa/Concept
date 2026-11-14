@@ -1,7 +1,7 @@
 # Concept
 Swiss DePa steht für Swiss Decentralized Party, zu deutsch Schweizer Dezentralisierte Partei. Primäres Ziel ist es eine DAO (Decentralized Autonome Organisation) aufzubauen, diese soll eine aktivere Teilnahme an der Politik ermöglichen. / Swiss DePa stands for Swiss Decentralized Party. The primary goal is to build a DAO (Decentralized Autonomous Organization), which should enable a more active participation in politics.
 ## Swiss DePa Jetzt
-Swiss DePa befindet sich in der Aufbauphase. Discord dient als internes Kommunikations-Tool, die DAO auf Soonaverse ist das zukünftige Ideal.
+Swiss DePa befindet sich in der Aufbauphase. Discord dient als internes Kommunikations-Tool, die DAO ist das zukünftige Ideal.
 
 ### Landing Area
 - Rules
@@ -10,7 +10,7 @@ Swiss DePa befindet sich in der Aufbauphase. Discord dient als internes Kommunik
 ### Working Groups
 - **Festlegung des grundsätzlichen Prinzips**
   - Discord als internes Kommunikations-Tool
-  - DAO als zukünftiges Ideal ([Soonaverse](https://soonaverse.com))
+  - DAO als zukünftiges Ideal (Plattform offen, siehe [DAO](#dao))
 - **Identitätsfeststellung** (siehe Repo [Identity-Verification](https://github.com/Swiss-DePa/Identity-Verification))
 - **Strukturierung**
   - Aufbauphase: Aufteilung des Leads in verschiedene Departments
@@ -26,8 +26,10 @@ Swiss DePa befindet sich in der Aufbauphase. Discord dient als internes Kommunik
 ### DAO
 Mit der Fertigstellung der Aufbauphase soll Swiss DePa in eine Dezentralisierte Autonome Organisation auf [Soonaverse](https://soonaverse.com/space/0xfb239ac24ef62fcf7093a455c531ecd038cac412/overview) umgewandelt werden. Ziel bleibt eine aktivere Teilnahme an der Politik, die auch effektiv wirken kann. Durch die Struktur einer DAO soll eine Plattform geschaffen werden, die das Einbringen einer politischen Meinung vereinfacht und das Erarbeiten von konstruktiven Lösungsvorschlägen ermöglicht.
 
+> **Hinweis:** Soonaverse wurde 2024 eingestellt; die Website ist offline. Die DAO-Plattform muss neu gewählt werden (siehe [Roadmap](Roadmap.md), Phase 1).
+
 #### Vergleich DAO und Verein
-Praktisch alle Parteien in der Schweiz sind Vereine. Eine DePa wäre anstelle eines Vereines ein DAO.
+Praktisch alle Parteien in der Schweiz sind Vereine. Eine DePa wäre anstelle eines Vereines ein DAO. Da eine DAO in der Schweiz kein Rechtsträger ist, braucht Swiss DePa für Kandidaturen, Initiativen und Finanzen voraussichtlich trotzdem einen Verein als rechtliche Hülle; die Entscheide fallen intern in der DAO.
 [Ein Verein besteht zwingend aus den Mitgliedern und aus dem Vorstand](https://de.wikipedia.org/wiki/Vereinsrecht_(Schweiz)) bei einem DAO ist dies nicht der Fall. Bei einem DAO bekommen verschiedene Mitglieder zwar schon Rollen, aber nicht einen Autoritären zustand. Entscheidungen werden generell immer mit einem Voting nach [liquiddemokratischem System](https://medium.com/organizer-sandbox/liquid-democracy-true-democracy-for-the-21st-century-7c66f5e53b6f) getätigt. Solche Votings werden durch "Proposals" getriggert 
 
 #### Vergleich der DAO Swiss DePa mit einer Demonstration
