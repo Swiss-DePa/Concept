@@ -1,6 +1,8 @@
 # Kategorien
 
-Kategorien für Swiss DePa, gespiegelt aus dem geteilten OneNote-Notizbuch «Swiss Decentralized Party», Abschnitt «Voting system». Level 1 = Kriterium, Level 2 = Sub-Kriterium.
+Kategorien für Swiss DePa. Level 1 = Kriterium, Level 2 = Sub-Kriterium.
+
+Dieses Dokument ersetzt das frühere OneNote-Notizbuch «Swiss Decentralized Party» (Abschnitt «Voting system»). Die dortigen Unterseiten waren leer; Inhalte werden ab jetzt nur noch hier gepflegt.
 
 - **Voting System**
   - Kriterien
@@ -14,8 +16,8 @@ Kategorien für Swiss DePa, gespiegelt aus dem geteilten OneNote-Notizbuch «Swi
   - Social Media Management (siehe Repo [Puplic-Relation](https://github.com/Swiss-DePa/Puplic-Relation))
   - _offen_
 - **Repräsentanten**
-  - Namen auf Liste
   - Ratskandidaten
+  - Namen auf Liste
   - _offen_
 - **Initiativen / Referenden**
   - Initiierung
