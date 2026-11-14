@@ -12,7 +12,7 @@ The working directory holds seven separate git repositories (each its own clone 
 
 | Directory | GitHub repo | Content |
 |---|---|---|
-| `Concept/` | Swiss-DePa/Concept | The core concept (`README.md`): what Swiss DePa is, current build-up phase (Landing Area, Working Groups), liquid democracy (diagrams in `images/`), reputation system, split rules, DAO vs. Verein/demonstration. `Kategorien.md`: criteria catalogue (Level 1 = Kriterium, Level 2 = Sub-Kriterium) for voting, identity, roles, representatives, initiatives. Also holds this `CLAUDE.md`. |
+| `Concept/` | Swiss-DePa/Concept | The core concept (`README.md`): what Swiss DePa is, current build-up phase (Landing Area, Working Groups), liquid democracy (diagrams in `images/`), reputation system, split rules, DAO vs. Verein/demonstration. `Kategorien.md`: criteria catalogue (Level 1 = Kriterium, Level 2 = Sub-Kriterium) for voting, identity, roles, representatives, initiatives. `Roadmap.md`: phases 0–5 with times relative to start (T0, "T+3 Monate"), deliberately no calendar dates. Also holds this `CLAUDE.md`. |
 | `DAOmanagement/` | petter1/DAOmanagement | How the DAO is run: constitution, task/goal tracking (via GitHub), member onboarding (Discord intro + Soonaverse join request → Soonaverse role), proposal voting options (Yes / minor change / major change / discard), TangleHub for decentralized data storage, community token / NFT ideas. |
 | `Identity-Verification/` | Swiss-DePa/Identity-Verification | Placeholders for IOTA DID integration and a tag system. |
 | `Puplic-Relation/` | Swiss-DePa/Puplic-Relation | Website requirements (domain, content, links) and social-media responsibilities. All stubs. |
