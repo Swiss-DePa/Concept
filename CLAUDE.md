@@ -6,14 +6,20 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This file lives in the `Concept` repo but describes the whole Swiss DePa workspace. In a multi-repo session it is copied to the parent directory; keep both copies identical.
 
-The working directory holds seven separate git repositories (each its own clone with its own `origin`) belonging to the **Swiss DePa** (Swiss Decentralized Party) project, plus `DAOmanagement` from a personal account. The goal of the project is to run a Swiss political party as a DAO (Decentralized Autonomous Organization), with decisions taken by proposals and liquid-democracy voting instead of a Vorstand. A Verein is planned only as the legal shell (candidacies, initiatives, finances).
+The working directory holds separate git repositories (each its own clone with its own `origin`, no git repo at the parent level): five from the **Swiss DePa** (Swiss Decentralized Party) organisation, plus `DAOmanagement` and `IOTAstammtischSchweiz.github.io` from other accounts. The goal of the project is to run a Swiss political party as a DAO (Decentralized Autonomous Organization), with decisions taken by proposals and liquid-democracy voting instead of a Vorstand. A Verein is planned only as the legal shell (candidacies, initiatives, finances).
 
 Decisions already taken (do not reopen without being asked):
 - Voting logic: multi-option with Stichfrage as in `technical-system/Subnet Governance Network.md`, section 4.2.
 - Legal form: Verein as legal shell, DAO for internal decisions.
 - Soonaverse, the originally planned DAO platform, was shut down in 2024. Replacement: the DAO lives in the Git repo `Swiss-DePa/dao` (GitHub for the start, later a decentralised/self-hosted Git server), voting and member identity via an own voting app/service, and a KI-Sekretariat (AI agent without a vote) that works only through issues and PRs (`Concept/KI-Sekretariat.md`).
 
-**There is no code yet.** Every repository contains only Markdown planning documents, most of them stubs or headings without body text. There is nothing to build, lint or test; work here means writing and structuring concept documents.
+**Almost everything is Markdown.** The repos hold planning documents, many of them stubs or headings without body text; work here mostly means writing and structuring concept documents. The only code is the merge check in `dao/` (Python standard library, no dependencies, no test suite). Run it locally against a PR branch:
+
+```sh
+cd dao && PR_NUMBER=12 BASE_SHA=$(git rev-parse origin/main) PR_LABELS="" python3 scripts/pruefe_abstimmung.py
+```
+
+Exit code 0 = merge allowed, 1 = blocked; the reason is printed. `REPO_ROOT` defaults to the current directory.
 
 | Directory | GitHub repo | Content |
 |---|---|---|
@@ -22,8 +28,10 @@ Decisions already taken (do not reopen without being asked):
 | `Identity-Verification/` | Swiss-DePa/Identity-Verification | Placeholders for IOTA DID integration and a tag system. |
 | `Puplic-Relation/` | Swiss-DePa/Puplic-Relation | Website requirements (domain, content, links) and social-media responsibilities. All stubs. |
 | `technical-system/` | Swiss-DePa/technical-system | `Subnet Governance Network.md`: English concept paper (draft v0.6) for a feeless network of sovereign subnets with cluster governance, ZK identity and multi-option voting. Its section 12 maps the idea onto Swiss democracy. |
-| `dao/` | Swiss-DePa/dao | The living DAO: `verfassung/Verfassung.md` (draft constitution, open values marked **[offen]**), `SEKRETARIAT.md` (operating instructions for the KI-Sekretariat, addressed to the agent, not to you), `abstimmungen/` (vote results `pr-<n>.json` written by the voting app), issue/PR templates, and the workflow «Abstimmung prüfen» which runs `scripts/pruefe_abstimmung.py` from the base branch via `pull_request_target`. Test the script locally with env vars `PR_NUMBER`, `BASE_SHA`, `PR_LABELS`, `REPO_ROOT`. |
-| `party/` | Swiss-DePa/party | Only a title README. |
+| `dao/` | Swiss-DePa/dao | The living DAO: `verfassung/Verfassung.md` (draft constitution, open values marked **[offen]**), `SEKRETARIAT.md` (operating instructions for the KI-Sekretariat, addressed to the agent, not to you), `abstimmungen/` (vote results `pr-<n>.json` written by the voting app), issue/PR templates, and the workflow «Abstimmung prüfen» which runs `scripts/pruefe_abstimmung.py` from the base branch via `pull_request_target` (so a PR cannot weaken its own check; only the JSON data comes from the PR). Merge is allowed if the constitution does not yet exist on the base branch (founding), the PR has label `aufbauphase` (Verfassung Art. 10), or `abstimmungen/pr-<n>.json` says `"ergebnis": "angenommen"`. Changing the check rules means changing the constitution and `abstimmungen/README.md` together. |
+| `IOTAstammtischSchweiz.github.io/` | IOTAstammtischSchweiz/IOTAstammtischSchweiz.github.io | GitHub Pages site of the IOTA Stammtisch Schweiz: a single `index.html` with AddEvent calendar links. Not part of the party concept. |
+
+`Swiss-DePa/party` (only a title README) exists on GitHub but is not cloned into these sessions.
 
 ## Conventions
 
